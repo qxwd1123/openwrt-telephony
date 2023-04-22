@@ -16,8 +16,6 @@ PKG_SOURCE:=signalwire-c-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/signalwire/signalwire-c/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=7916ad76b2c2c75ff616d19bf044894771b3f8602b80a6f74d8ba26206faef79
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/signalwire-c-$(PKG_VERSION)
-
 PKG_BUILD_PARALLEL:=1
 CMAKE_INSTALL:=1
 

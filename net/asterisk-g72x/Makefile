@@ -22,7 +22,6 @@ PKG_LICENSE:=GPL-3.0
 PKG_LICENSE_FILES:=README.md
 PKG_MAINTAINER:=Alex Samorukov <samm@os2.kiev.ua>
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 

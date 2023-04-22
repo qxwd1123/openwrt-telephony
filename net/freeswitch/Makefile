@@ -18,8 +18,6 @@ PKG_HASH:=7f9603a691220d9f47da42f3b19290b629b69dceb2eee56448f0a7cefcf9d1a1
 
 PKG_CPE_ID:=cpe:/a:freeswitch:freeswitch
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/freeswitch-$(PKG_VERSION).-release
-
 PKG_BUILD_DEPENDS:=perl/host
 
 PKG_FIXUP:=autoreconf

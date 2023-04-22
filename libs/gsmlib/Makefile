@@ -18,7 +18,6 @@ PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=cd5442de07cfe052316ede58640ef81b20627276
 PKG_MIRROR_HASH:=bc24d7ddcb5f4b5f9160351d9f38cf6f35f3feef969f675f883b32d04c8c80fa
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 # Need Makefile.in.in from gettext-full/host and po.m4 from gettext-full
 PKG_BUILD_DEPENDS:=gettext-full/host gettext-full
